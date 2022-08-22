@@ -1,0 +1,219 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-08-19T23:07:42.834Z",
+    "end": "2022-08-19T23:08:05.358Z",
+    "duration": 22524,
+    "testsRegistered": 7,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1daa90b6-03c5-4d93-935c-5cfecf9a93c6",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test-home_page.cy.js",
+      "file": "cypress\\e2e\\test-home_page.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ab496388-ef9b-4fc9-ac90-d0e80254c802",
+          "title": "test1 spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "open home page",
+              "fullTitle": "test1 spec open home page",
+              "timedOut": null,
+              "duration": 1683,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('Step 1 - visit home page');\ncy.visit('/');",
+              "err": {},
+              "uuid": "3b83a9f6-4f53-4399-8b35-d7117814ac20",
+              "parentUUID": "ab496388-ef9b-4fc9-ac90-d0e80254c802",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "create issue - Bug",
+              "fullTitle": "test1 spec create issue - Bug",
+              "timedOut": null,
+              "duration": 4027,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('Step ' + brojac + ' - create ' + type);\ncy.get(_locators.default.addBtn).should('exist').click();\ncy.get(_locators.default.issueTypeField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(type).click();\ncy.get(_locators.default.issueProirityField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(priority).click();\ncy.get(_locators.default.shortSummaryInput).should('exist').type('First ' + type);\ncy.get(_locators.default.descriptionParagraph).should('exist').type('This is the first ' + type);\ncy.get(_locators.default.reporterField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(reporter).click();\ncy.get(_locators.default.assigneesField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(assignee).click();\ncy.get('label').contains('Description').click();\ncy.get(_locators.default.form).find(\"[type='submit']\").contains('Create Issue').click();",
+              "err": {},
+              "uuid": "8aab079c-1824-42a3-8290-fa824956ec86",
+              "parentUUID": "ab496388-ef9b-4fc9-ac90-d0e80254c802",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "create issue - Story",
+              "fullTitle": "test1 spec create issue - Story",
+              "timedOut": null,
+              "duration": 4232,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('Step ' + brojac + ' - create ' + type);\ncy.get(_locators.default.addBtn).should('exist').click();\ncy.get(_locators.default.issueTypeField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(type).click();\ncy.get(_locators.default.issueProirityField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(priority).click();\ncy.get(_locators.default.shortSummaryInput).should('exist').type('First ' + type);\ncy.get(_locators.default.descriptionParagraph).should('exist').type('This is the first ' + type);\ncy.get(_locators.default.reporterField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(reporter).click();\ncy.get(_locators.default.assigneesField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(assignee).click();\ncy.get('label').contains('Description').click();\ncy.get(_locators.default.form).find(\"[type='submit']\").contains('Create Issue').click();",
+              "err": {},
+              "uuid": "fc86538f-3f58-4eec-ab92-2a7ed8703f17",
+              "parentUUID": "ab496388-ef9b-4fc9-ac90-d0e80254c802",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "create issue - Task",
+              "fullTitle": "test1 spec create issue - Task",
+              "timedOut": null,
+              "duration": 4200,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('Step ' + brojac + ' - create ' + type);\ncy.get(_locators.default.addBtn).should('exist').click();\ncy.get(_locators.default.issueTypeField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(type).click();\ncy.get(_locators.default.issueProirityField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(priority).click();\ncy.get(_locators.default.shortSummaryInput).should('exist').type('First ' + type);\ncy.get(_locators.default.descriptionParagraph).should('exist').type('This is the first ' + type);\ncy.get(_locators.default.reporterField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(reporter).click();\ncy.get(_locators.default.assigneesField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(assignee).click();\ncy.get('label').contains('Description').click();\ncy.get(_locators.default.form).find(\"[type='submit']\").contains('Create Issue').click();",
+              "err": {},
+              "uuid": "11ddf028-efdb-4649-952a-f099b82c2996",
+              "parentUUID": "ab496388-ef9b-4fc9-ac90-d0e80254c802",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "creat issue - negative",
+              "fullTitle": "test1 spec creat issue - negative",
+              "timedOut": null,
+              "duration": 3623,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let type = \"Bug\";\nlet priority = \"Lowest\";\nlet reporter = \"Iron Man\";\nlet assignee = \"Spider Man\";\ncy.log('Step 5 - check if create issue button is disabled');\ncy.get(_locators.default.addBtn).should('exist').click();\ncy.get(_locators.default.issueTypeField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(type).click();\ncy.get(_locators.default.issueProirityField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(priority).click(); //cy.get(locators.shortSummaryInput).should('exist').type('First bug')\ncy.get(_locators.default.descriptionParagraph).should('exist').type('This is the first bug');\ncy.get(_locators.default.reporterField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(reporter).click();\ncy.get(_locators.default.assigneesField).should('exist').click();\ncy.get(_locators.default.SelectOptionField).as('option');\ncy.get('@option').contains(assignee).click();\ncy.get('label').contains('Description').click();\ncy.get(_locators.default.form).find(\"[type='submit']\").contains('Create Issue').should('be.disabled');\ncy.get(_locators.default.form).find(\"[type='button']\").contains('Cancel').click();",
+              "err": {},
+              "uuid": "bdcf573c-c3ee-4ec0-bed7-48abb3cf6354",
+              "parentUUID": "ab496388-ef9b-4fc9-ac90-d0e80254c802",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "edit first bug and add comment",
+              "fullTitle": "test1 spec edit first bug and add comment",
+              "timedOut": null,
+              "duration": 3197,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('Step 6 - edit first bug');\ncy.get(_locators.default.issueCardP).contains('First Bug').click();\ncy.get(_locators.default.issueTitleEditField).type(\" - fixed\");\ncy.get(_locators.default.issueCommentAdd).type('This is not a bug, it is a feature');\ncy.get(_locators.default.issueCommentAddButton).contains('Save').click();\ncy.get(_locators.default.issueStatusEdit).contains('Backlog').click();\ncy.get(_locators.default.issueStatusEditDropdown).contains('Done').click();\ncy.get(_locators.default.jButtonTimesIcon).click();",
+              "err": {},
+              "uuid": "9f9a6da8-8f3c-4cec-8adf-af2ada3977d1",
+              "parentUUID": "ab496388-ef9b-4fc9-ac90-d0e80254c802",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "delete first story",
+              "fullTitle": "test1 spec delete first story",
+              "timedOut": null,
+              "duration": 1488,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('Step 7 - Delete first story');\ncy.get(_locators.default.issueCardP).contains('First Story').click();\ncy.get(_locators.default.jButtonTrashIcon).click();\ncy.get('span').contains('Delete').click();",
+              "err": {},
+              "uuid": "03da7e33-9af0-4ab8-839d-c5aa3e47cb29",
+              "parentUUID": "ab496388-ef9b-4fc9-ac90-d0e80254c802",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3b83a9f6-4f53-4399-8b35-d7117814ac20",
+            "8aab079c-1824-42a3-8290-fa824956ec86",
+            "fc86538f-3f58-4eec-ab92-2a7ed8703f17",
+            "11ddf028-efdb-4649-952a-f099b82c2996",
+            "bdcf573c-c3ee-4ec0-bed7-48abb3cf6354",
+            "9f9a6da8-8f3c-4cec-8adf-af2ada3977d1",
+            "03da7e33-9af0-4ab8-839d-c5aa3e47cb29"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 22450,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
