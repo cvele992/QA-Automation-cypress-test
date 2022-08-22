@@ -1,6 +1,6 @@
 import locators from './pageObject/locators.cy'
 
-describe('test2 spec', () => {
+describe('test2 spec - Settings page', () => {
   it('open settings page', () =>{
     cy.log('Step 1 - load home page, then visit settings page')
     cy.visit('/')

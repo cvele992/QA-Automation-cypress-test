@@ -1,6 +1,6 @@
 import locators from './pageObject/locators.cy'
 
-describe('test3 spec', () => {
+describe('test3 spec - Hover options', () => {
   it('open home page', () =>{
     
     cy.log('Step 1 - load home page')
